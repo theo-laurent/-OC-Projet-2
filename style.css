@@ -1,3 +1,37 @@
-#test{
-    border: 2px solid black;
+body{
+    width: 1440px;
+}
+
+
+
+#hébergements{
+    width: 61%;
+    height: 627px;
+    background-color: #F2F2F2;
+}
+
+#hébergements div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.hébergement1{
+    width: 246px;
+    height: 200px;
+    background-color:white;
+    margin: 15px;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+
+.hébergement1 img{
+    width: 235px;
+    height: 112px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+p{
+    padding: 0px;
 }
