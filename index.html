@@ -5,6 +5,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reservia</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="fontawesome/css/all.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -19,9 +24,9 @@
         />
       </div>
       <nav>
-        <a href="#hebergements">Hébergements</a>
-        <a href="#activites">Activités</a>
-        <a href="">S'inscrire</a>
+        <a href="#hebergements" id="navhebergements">Hébergements</a>
+        <a href="#activites" id="navactivites">Activités</a>
+        <a href="" id="inscription">S'inscrire</a>
       </nav>
     </header>
 
@@ -30,9 +35,11 @@
       <section>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ou en pleine nature</p>
-        <form method="POST" action="">
+        <form method="POST" action="#" id="barrerecherche">
+          <span>
           <i class="fas fa-map-marker-alt"></i>
-          <input type="search" id="recherchehebergement" autofocus />
+        </span>
+          <input type="search" id="recherchehebergement" autofocus placeholder="Marseille, France" />
           <button>Rechercher</button>
         </form>
         <div>
@@ -61,7 +68,7 @@
       </section>
 
       <!--partie hébergements-->
-      <section>
+      <section id="hebergements">
         <div>
           <h2>Hébergements à Marseille</h2>
           <div>
@@ -215,7 +222,7 @@
       </section>
 
       <!--partie activités-->
-      <section>
+      <section id="activites">
         <h2>Activités à Marseille</h2>
 
         <div>
