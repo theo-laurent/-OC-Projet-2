@@ -47,7 +47,7 @@ header nav a {
 
 form span {
   background-color: #f2f2f2;
-  width: 55px;
+  width: 60px;
   border-radius: 15px 0 0 15px;
   display: flex;
   align-items: center;
@@ -56,20 +56,67 @@ form span {
 
 form input {
   flex: auto;
-  border:none;
-  border-top: solid 1px #f2f2f2 ;
+  border: none;
+  border-top: solid 1px #f2f2f2;
   border-bottom: solid 1px #f2f2f2;
   padding-left: 25px;
   font-size: 1.1rem;
-
 }
-
 
 form button {
   background-color: #0065fc;
-  flex: auto;
+  width: 150px;
   border-radius: 0 15px 15px 0;
   color: white;
   font-size: 1rem;
   font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+/*section filtres*/
+
+#filtres {
+  display: flex;
+  margin-top: 50px;
+}
+
+#filtres h2{
+  margin-top: auto;
+  font-weight: 900;
+}
+
+#filtres h3{
+  font-weight: ;
+}
+
+#filtres div{
+  margin-left: 40px;
+  padding-right: 25px;
+  border: #d9d9d9 solid 2px;
+  border-radius: 35px;
+  display: flex;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+#filtres i{
+  height: 60px;
+  width: 60px;
+  background-color: #DEEBFF;
+  color: blue;
+  border-radius: 100%;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2px;
+  margin-left: -2px;
+  margin-bottom: -2px;
+}
+
+#filtres div:hover {
+  background-color: #AAD4FF;
+  transform: scale(1.1);
+  transition-duration: 1s;
 }
