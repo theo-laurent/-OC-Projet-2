@@ -81,16 +81,12 @@ form button {
   margin-top: 50px;
 }
 
-#filtres h2{
+#filtres h2 {
   margin-top: auto;
   font-weight: 900;
 }
 
-#filtres h3{
-  font-weight: ;
-}
-
-#filtres div{
+#filtres div {
   margin-left: 40px;
   padding-right: 25px;
   border: #d9d9d9 solid 2px;
@@ -100,10 +96,16 @@ form button {
   font-size: 0.9rem;
 }
 
-#filtres i{
+#filtres div:hover {
+  background-color: #aad4ff;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+#filtres i {
   height: 60px;
   width: 60px;
-  background-color: #DEEBFF;
+  background-color: #deebff;
   color: blue;
   border-radius: 100%;
   margin-right: 15px;
@@ -113,10 +115,4 @@ form button {
   margin-top: -2px;
   margin-left: -2px;
   margin-bottom: -2px;
-}
-
-#filtres div:hover {
-  background-color: #AAD4FF;
-  transform: scale(1.1);
-  transition-duration: 1s;
 }
