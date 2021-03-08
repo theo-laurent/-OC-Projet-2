@@ -1,6 +1,5 @@
 body {
-  width: 1440px;
-  margin: auto;
+  width: 100%;
   font-family: "Raleway", "Sans serif";
 }
 
@@ -45,13 +44,12 @@ header nav a {
   display: flex;
 }
 
-form span {
+form i {
   background-color: #f2f2f2;
-  width: 60px;
+  width: 42px;
   border-radius: 15px 0 0 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-left: 22px;
+  padding-top: 15px;
 }
 
 form input {
@@ -59,7 +57,7 @@ form input {
   border: none;
   border-top: solid 1px #f2f2f2;
   border-bottom: solid 1px #f2f2f2;
-  padding-left: 25px;
+  padding-left: 20px;
   font-size: 1.1rem;
 }
 
@@ -72,6 +70,10 @@ form button {
   font-weight: bold;
   border: none;
   cursor: pointer;
+}
+
+form ::placeholder{
+  color: black;
 }
 
 /*section filtres*/
@@ -116,3 +118,65 @@ form button {
   margin-left: -2px;
   margin-bottom: -2px;
 }
+
+/*Section hébergements partie principal*/
+
+#hebergements>div{
+  background-color:#F2F2F2;
+  width: 61%;
+  height: 627px;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+#hebergements h2{
+margin-left: 25px;
+}
+
+#principaux{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ #hebergements a{
+   text-decoration: none;
+   color: black;
+ }
+
+#hebergements figure{
+  width: 248px;
+  height: 200px;
+  background-color:white;
+  padding: 5px;
+  border-radius: 25px;
+  line-height: 0.5;
+  margin: 15px
+}
+
+#hebergements figure img{
+  width: 100%;
+  height: 113px;
+  border-radius: 25px 25px 0px 0px;
+  object-fit: cover;
+}
+
+#hebergements figcaption{
+  padding-left: 15px;
+}
+
+#hebergements i{
+  color: #0065fc;
+}
+
+#plus {
+  font-weight: bold;
+  display: block;
+  padding-top: 20px;
+  margin-left: 30px;
+} 
+
+/*Section hébergements partie populaire*/
+
+
