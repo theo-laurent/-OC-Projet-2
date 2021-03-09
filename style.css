@@ -1,3 +1,8 @@
+figure{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   width: 100%;
   font-family: "Raleway", "Sans serif";
@@ -72,7 +77,7 @@ form button {
   cursor: pointer;
 }
 
-form ::placeholder{
+form ::placeholder {
   color: black;
 }
 
@@ -119,19 +124,17 @@ form ::placeholder{
   margin-bottom: -2px;
 }
 
-
 /*Section hébergement*/
 
-#hebergements{
+#hebergements {
   display: flex;
   justify-content: space-around;
 }
 
-
 /*Section hébergements partie principal*/
 
-#hebergements>div{
-  background-color:#F2F2F2;
+#articleaside {
+  background-color: #f2f2f2;
   width: 61%;
   min-height: 627px;
   border-radius: 25px;
@@ -139,11 +142,11 @@ form ::placeholder{
   margin-right: 30px;
 }
 
-#hebergements h2{
-margin-left: 25px;
+#hebergements h2 {
+  margin-left: 25px;
 }
 
-#principaux{
+#principaux {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -151,33 +154,33 @@ margin-left: 25px;
   margin-right: 0px;
 }
 
- #hebergements a{
-   text-decoration: none;
-   color: black;
- }
+#hebergements a {
+  text-decoration: none;
+  color: black;
+}
 
-#principaux figure{
+.carteh1 {
   width: 248px;
   height: 200px;
-  background-color:white;
+  background-color: white;
   padding: 5px;
   border-radius: 25px;
   line-height: 0.5;
-  margin: 15px
+  margin: 15px;
 }
 
-#principaux figure img{
+#principaux figure img {
   width: 100%;
   height: 113px;
   border-radius: 25px 25px 0px 0px;
   object-fit: cover;
 }
 
-#principaux figcaption{
+#principaux figcaption {
   padding-left: 15px;
 }
 
-#hebergements i{
+#hebergements i {
   color: #0065fc;
 }
 
@@ -186,12 +189,12 @@ margin-left: 25px;
   display: block;
   padding-top: 40px;
   margin-left: 30px;
-} 
+}
 
 /*Section hébergements partie populaire*/
 
 #populaires {
-  background-color:#F2F2F2;
+  background-color: #f2f2f2;
   width: 419px;
   min-height: 627px;
   border-radius: 25px;
@@ -200,19 +203,19 @@ margin-left: 25px;
   margin-right: 20px;
 }
 
-#cartespopulaire{
+#cartespopulaire {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;  
+  justify-content: center;
 }
 
-#populaires h2{
+#populaires h2 {
   display: flex;
   justify-content: space-between;
   padding: 10px;
 }
 
-#populaires figure{
+#populaires figure {
   background-color: white;
   width: 345px;
   height: 145px;
@@ -220,15 +223,74 @@ margin-left: 25px;
   padding: 5px;
   display: flex;
   line-height: 1;
+  margin: 20px;
 }
 
-#populaires img{
+#populaires img {
   width: 127px;
   height: 100%;
-  border-radius: 25px 0 0 25px ;
+  border-radius: 25px 0 0 25px;
   padding-right: 25px;
 }
 
-#populaires figcaption div{
+#populaires figcaption div {
   margin-top: 35px;
+}
+
+/*Section activités*/
+
+#activites {
+  width: 100%;
+  min-height: ;
+}
+
+#activites div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: ;
+
+}
+
+#activites a {
+  text-decoration: none;
+  color: black;
+}
+
+#activites img {
+  width: 100%;
+  height: calc(100% - 55px);
+  object-fit: cover;
+  border-radius: 25px 25px 0 0;
+}
+
+#activites h3 {
+  padding-left: 10px;
+}
+
+.actipetit {
+  width: 300px;
+  height: 162px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #cac8c8;
+}
+
+.actimoyen {
+  width: 300px;
+  height: 195px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #cac8c8;
+}
+
+.actimoyenplus {
+  width: 300px;
+  height: 236px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #cac8c8;
+}
+
+.actigrand {
+  width: 300px;
+  height: 444px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #cac8c8;
 }
