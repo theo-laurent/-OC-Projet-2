@@ -8,7 +8,7 @@ figure {
   padding: 0;
 }
 
-a{
+a {
   margin: 0;
   padding: 0;
 }
@@ -18,7 +18,7 @@ a{
 header {
   display: flex;
   justify-content: space-between;
-  padding-top: 28px;
+  padding-top: 20px;
 }
 
 header img {
@@ -248,54 +248,96 @@ form ::placeholder {
 
 #activites {
   width: 100%;
-  height: 660px;
 }
 
 #activites a {
   text-decoration: none;
   color: black;
+  display: block;
 }
 
 #activites_div {
-  display: flex ;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 222px 222px;
+  column-gap: 20px;
+}
+
+#activites_div figure {
+  width: 100%;
+  height: 100%;
+}
+
+#activites_div img {
+  width: 100%;
+  height: calc(100% - 55px);
+  object-fit: cover;
+  border-radius: 25px 25px 0 0;
 }
 
 #activites_div h3 {
   padding-left: 10px;
 }
 
- #activites_div img {
-  width: 300px;
-  height: calc(100% - 55px);
-  object-fit: cover;
-  border-radius: 25px 25px 0 0;
-}
-
-.actipetit {
-  width: 300px;
-  height: 162px;
-  border-radius: 25px;
-  box-shadow: 0 0 20px #cac8c8;
-}
-
-.actimoyen {
-  width: 300px;
-  height: 195px;
-  border-radius: 25px;
-  box-shadow: 0 0 20px #cac8c8;
-}
-
-.actimoyenplus {
-  width: 300px;
-  height: 236px;
-  border-radius: 25px;
-  box-shadow: 0 0 20px #cac8c8;
-}
-
-.actigrand {
+#actigrand1 {
   width: 300px;
   height: 444px;
   border-radius: 25px;
   box-shadow: 0 0 20px #cac8c8;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row: 1/2;
+}
+
+#actimoyenplus {
+  width: 300px;
+  height: 236px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #cac8c8;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+#actipetit1 {
+  width: 300px;
+  height: 162px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #cac8c8;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row: 2/2;
+  align-self: flex-end;
+}
+
+#actigrand2 {
+  width: 300px;
+  height: 444px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #cac8c8;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row: 1/2;
+}
+
+#actimoyen1 {
+  width: 300px;
+  height: 195px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #cac8c8;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row: 1/1;
+}
+
+#actimoyen2 {
+  width: 300px;
+  height: 195px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #cac8c8;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row: 2/2;
+  align-self: flex-end;
 }
