@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  font-family: "Raleway", "Sans serif";
+  font-family: "Raleway", "Sans serif", "Arial";
   margin: 0;
 }
 
@@ -17,8 +17,7 @@ a {
 Main {
   max-width: 1440px;
   margin: auto;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 50px;
 }
 
 /*Header*/
@@ -42,7 +41,7 @@ header nav {
 }
 
 header nav a {
-  padding: 25px;
+  padding: 55px 55px 25px 25px;
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -128,7 +127,7 @@ form ::placeholder {
 #filtres div:hover {
   background-color: #aad4ff;
   transform: scale(1.1);
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
 #filtres i {
@@ -146,6 +145,25 @@ form ::placeholder {
   margin-bottom: -2px;
 }
 
+#annonce {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+#annonce i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.5rem;
+  height: 0.5rem;
+  color: #0065fc;
+  padding: 10px;
+  border: solid 1px #d9d9d9;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
 /*partie hébergements*/
 
 #hebergements {
@@ -156,6 +174,12 @@ form ::placeholder {
 #hebergements a {
   text-decoration: none;
   color: black;
+}
+
+#hebergements_article_div a:hover,
+#hebergements_aside_div a:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
 }
 
 #hebergements i {
@@ -192,7 +216,7 @@ form ::placeholder {
   padding: 5px;
   border-radius: 25px;
   line-height: 0.5;
-  margin: 15px;
+  margin-top: 30px;
 }
 
 .hebergements_article_div_carte img {
@@ -207,10 +231,14 @@ form ::placeholder {
 }
 
 #plus {
+  display: inline-block;
+  font-size: 1.2rem;
   font-weight: bold;
-  display: block;
-  padding-top: 40px;
-  margin-left: 30px;
+  margin: 40px;
+}
+
+#plus:hover {
+  text-decoration: underline;
 }
 
 /*sous ensemble hebergement 2*/
@@ -277,10 +305,6 @@ form ::placeholder {
   transition-duration: 1s;
 }
 
-#activites :hover a:not(:hover) {
-  filter: blur(5px);
-}
-
 #activites_div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -301,7 +325,7 @@ form ::placeholder {
 }
 
 #activites_div h3 {
-  padding-left: 10px;
+  margin: 10px 0px 0px 20px;
 }
 
 #actigrand1 {
