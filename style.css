@@ -58,11 +58,6 @@ header nav a {
   border-top: 3px solid white;
 }
 
-#navactivites:hover {
-  color: #0065fc;
-  border-top: solid #0065fc;
-}
-
 #inscription {
   color: #0065fc;
 }
@@ -71,16 +66,17 @@ header nav a {
 
 #barrerecherche {
   width: 423px;
-  height: 50px;
+  height: 55px;
   display: flex;
 }
 
-form i {
+form > i {
   background-color: #f2f2f2;
   width: 10%;
   border-radius: 15px 0 0 15px;
-  padding-left: 22px;
-  padding-top: 15px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
 }
 
 form input {
@@ -104,8 +100,13 @@ form button {
   cursor: pointer;
 }
 
+button > i {
+  display: none !important;
+}
+
 form ::placeholder {
   color: black;
+  font-weight: bold;
 }
 
 /*section filtres*/
@@ -122,14 +123,14 @@ form ::placeholder {
 }
 
 #filtres div {
-  margin-left: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
   padding-right: 25px;
   border: #d9d9d9 solid 2px;
   border-radius: 35px;
   display: flex;
   cursor: pointer;
   font-size: 0.9rem;
-  white-space: nowrap;
 }
 
 #filtres div:hover {
@@ -250,7 +251,6 @@ form ::placeholder {
   width: 419px;
   min-height: 627px;
   border-radius: 25px;
-  padding: ;
   padding-bottom: 20px;
 }
 
@@ -420,9 +420,14 @@ footer a:hover {
     transform: scale(1.1);
     transition-duration: 500ms;
   }
+
+  #navactivites:hover {
+    color: #0065fc;
+    border-top: solid #0065fc;
+  }
 }
 
-@media screen and (max-width: 444px) {
+@media screen and (max-width: 460px) {
   header {
     margin-bottom: 100px;
   }
@@ -436,6 +441,10 @@ footer a:hover {
     position: absolute;
   }
 
+  nav {
+    width: 100%;
+  }
+
   header nav {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -445,24 +454,49 @@ footer a:hover {
   #navhebergements {
     grid-column: 1/1;
     grid-row: 2/2;
+    border-top: none;
+    border-bottom: 4px solid #0065fc;
+    justify-self: stretch;
+    text-align: center;
   }
 
   #navactivites {
     grid-column: 2/2;
     grid-row: 2/2;
+    border-bottom: 4px solid #f2f2f2;
+    justify-self: stretch;
+    text-align: center;
   }
 
   #inscription {
     grid-column: 2/2;
     grid-row: 1/1;
+    justify-self: right;
   }
 
   main {
     padding: 0;
   }
 
-  form {
-    width: 100px;
+  section > h1 {
+    width: 80%;
+    margin: auto;
+  }
+
+  section > p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+
+  form button {
+    width: 12%;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  form button p {
+    display: none;
   }
 
   #filtres {
@@ -472,10 +506,6 @@ footer a:hover {
   #filtres h2 {
     width: 100%;
     margin-left: 20px;
-  }
-
-  #filtres div {
-    margin: 10px;
   }
 
   #hebergements {
@@ -491,6 +521,8 @@ footer a:hover {
   #hebergements_article_div a {
     width: 100%;
     height: 200px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px #cac8c8;
   }
 
   #hebergements_aside {
@@ -500,6 +532,9 @@ footer a:hover {
 
   #hebergements_aside_div a {
     width: 100%;
+  }
+
+  #hebergements_aside_div figcaption div {
   }
 
   #activites div {
@@ -512,7 +547,7 @@ footer a:hover {
   }
 
   #activites div a {
-    width: 90%;
+    min-width: 90%;
     height: 195px;
     margin: auto;
     margin-top: 20px;
