@@ -400,6 +400,10 @@ footer {
   padding-top: 20px;
 }
 
+footer h3{
+  font-weight: 1000;
+}
+
 footer ul {
   list-style: none;
   padding: 0;
@@ -534,7 +538,13 @@ footer a:hover {
     width: 100%;
   }
 
-  #hebergements_aside_div figcaption div {
+  #hebergements_aside_div figcaption{
+    position: relative;
+  }
+
+  #hebergements_aside_div figcaption div{
+    position: absolute;
+    bottom: 10px;
   }
 
   #activites div {
