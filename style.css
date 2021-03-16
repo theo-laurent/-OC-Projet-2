@@ -100,10 +100,6 @@ form button {
   cursor: pointer;
 }
 
-button > i {
-  display: none !important;
-}
-
 form ::placeholder {
   color: black;
   font-weight: bold;
@@ -281,7 +277,7 @@ form ::placeholder {
 }
 
 .hebergements_aside_div_carte figure img {
-  width: 127px;
+  width: 38%;
   height: 100%;
   border-radius: 25px 0 0 25px;
   padding-right: 25px;
@@ -421,6 +417,10 @@ footer a:hover {
     color: #0065fc;
     border-top: solid #0065fc;
   }
+
+  button > i {
+    display: none !important;
+  }
 }
 
 @media screen and (min-width: 651px) and (max-width: 1024px) {
@@ -428,6 +428,10 @@ footer a:hover {
     flex-direction: column;
 
     margin-bottom: 100px;
+  }
+
+  button > i {
+    display: none !important;
   }
 
   #hebergements {
@@ -474,7 +478,7 @@ footer a:hover {
   }
 
   #barrerecherche {
-    width: 90%;
+    width: 80%;
     margin: auto;
   }
 
@@ -532,7 +536,7 @@ footer a:hover {
   }
 
   form button {
-    width: 12%;
+    width: 55px;
     border-radius: 15px 15px 15px 15px;
   }
 
@@ -573,6 +577,7 @@ footer a:hover {
 
   #hebergements_aside_div a {
     width: 100%;
+    height: 150px;
   }
 
   #hebergements_aside_div figcaption {
