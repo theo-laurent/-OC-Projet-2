@@ -119,9 +119,9 @@ form ::placeholder {
 }
 
 #filtres div {
-  margin-left: 20px;
+  margin-left: 15px;
   margin-top: 10px;
-  padding-right: 25px;
+  padding-right: 15px;
   border: #d9d9d9 solid 2px;
   border-radius: 35px;
   display: flex;
@@ -141,7 +141,7 @@ form ::placeholder {
   background-color: #deebff;
   color: blue;
   border-radius: 100%;
-  margin-right: 15px;
+  margin-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -501,16 +501,20 @@ footer a:hover {
     grid-row: 2/2;
     border-top: none;
     border-bottom: 4px solid #0065fc;
-    justify-self: stretch;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
   }
 
   #navactivites {
     grid-column: 2/2;
     grid-row: 2/2;
     border-bottom: 4px solid #f2f2f2;
-    justify-self: stretch;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
   }
 
   #inscription {
