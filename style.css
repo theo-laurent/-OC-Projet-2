@@ -348,6 +348,7 @@ form ::placeholder {
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row: 2/2;
+  align-self: flex-end;
 }
 
 #actigrand2 {
@@ -378,6 +379,7 @@ form ::placeholder {
   grid-column-start: 4;
   grid-column-end: 4;
   grid-row: 2/2;
+  align-self: flex-end;
 }
 
 /*Footer*/
@@ -469,6 +471,13 @@ footer a:hover {
     height: 250px;
     margin-top: 20px;
     margin-bottom: 20px;
+    align-self: center;
+  }
+  #actipetit1 {
+    align-self: ;
+  }
+  #actimoyen2 {
+    align-self: center;
   }
 }
 
