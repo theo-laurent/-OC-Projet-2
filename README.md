@@ -1,12 +1,12 @@
 # Reservia
 
-##1) Objectif
+## 1) Objectif
 Transformez une maquette fournie en site web
 
-##2) Langages utilisés
+## 2) Langages utilisés
 HTML5, CSS3 sans framework
 
-##3) Cahier des charges
+## 3) Cahier des charges
 L'integration doit se faire en HTML5 & CSS3, sans framework.
 Le champ de recherche doit être un champ de saisie, dont le texte peut être édité. La fonctionnalité de recherche ne doit pas être implémenté pour autant.
 Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.
@@ -17,11 +17,11 @@ Le code devra utiliser les balises sémantiques et ne doit contenir aucune erreu
 Le site devra être compatible avec les dernières versions de Chrome et Firefox.
 Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab
 
-##4) Elements fournis par l'entreprise virtuelle
+## 4) Elements fournis par l'entreprise virtuelle
 Les maquettes desktop et mobile en format image.
 La police est "Raleway"
 Les couleurs sont : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
 Les icones proviennent de Font Awesome
 
-##6) Outils utilisés
+## 6) Outils utilisés
 Visual Studio Code avec : Live server, Prettier.
