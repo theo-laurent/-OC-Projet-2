@@ -1,7 +1,5 @@
 # Reservia
-
-
-
+![maquette reservia](./images/maquettes/desktop.png)
 
 ## 1) Objectif
 - Transformez une maquette fournie en site web
