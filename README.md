@@ -1,5 +1,5 @@
 # Reservia
-![maquette reservia](./images/maquettes/1598262857804_Maquettereservia-min.png)
+![maquette reservia](./images/maquettes/1598262857804_Maquette_reservia-min.png)
 
 ## 1) Objectif
 - Transformez une maquette fournie en site web
