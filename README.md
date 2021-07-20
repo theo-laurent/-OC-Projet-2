@@ -1,6 +1,4 @@
 # Reservia
-![maquette reservia](./images/maquettes/desktop.png)
-
 ## 1) Objectif
 - Transformez une maquette fournie en site web
 
@@ -23,6 +21,7 @@
 - La police est "Raleway"
 - Les couleurs sont : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
 - Les icones proviennent de Font Awesome
+![maquette reservia](./images/maquettes/desktop.png)
 
 ## 6) Outils utilisés
 - Visual Studio Code avec : Live server, Prettier.
